@@ -1,0 +1,21 @@
+body{
+  min-width: 500px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+header, main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.wrong {
+  background-color: lightcoral;
+}

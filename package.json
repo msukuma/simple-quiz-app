@@ -1,0 +1,8 @@
+{
+  "name": "simple-quiz-app",
+  "version": "1.0.0",
+  "description": "A simple quiz app",
+  "main": "index.js",
+  "author": "Nixon Ramin",
+  "license": "ISC"
+}
