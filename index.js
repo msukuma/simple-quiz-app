@@ -60,7 +60,7 @@ function QuizApp () {
   }
 
   function isChoiceCorrect () {
-    const answer = getCurrentQuestionObject()
+    const answer = getCurrentQuestionAnswer()
     const selectedChoice = getCurrentSelectedChoice()
     return selectedChoice === answer
   }
@@ -76,7 +76,7 @@ function QuizApp () {
   }
 
   function renderScore () {
-    $('div.score').html(`Score: ${score}`)
+    $('div.score').html(`Score: ${score}/${questions.length}`)
   }
 
   function renderQuestion () {
